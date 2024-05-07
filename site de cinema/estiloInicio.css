@@ -1,0 +1,164 @@
+
+body{
+    background:black;
+    background-attachment: fixed;
+    min-height: 100%;
+}
+
+#menu ul{
+    position: sticky;
+    padding:15px;
+    margin: 0px;
+    background-color: red;
+    list-style: none;
+    height: 15%;
+}
+
+#menu ul li {
+    padding: 10px 40px;
+    display: inline-block;
+    background-color: red;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    border-bottom: 3px solid red;   
+}
+
+#menu ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#menu ul li a:hover {
+    transition: 0.3s;
+    background-color: red;
+    color:black;
+    border-radius: 7px 7px;
+    transition: 0.5s;
+}
+
+#frente{
+    padding: 30px;
+    height: 35em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section #carouselExampleIndicators{
+    width: 75%;  
+    border:outset 3px grey ;
+} 
+
+#frente{
+    width: 100%;
+    height: 800px;   
+    padding: 30px;
+}
+
+#cartaz{
+    padding: 20px;
+    align-items: center;
+    width: 100%;
+    background: black;
+    height: 600px;   
+}
+
+section #titulo h2{  
+    margin-left: 120px; 
+    padding: 30px;
+    color:white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+section #filmesCartaz{
+    display: flex;
+    justify-content: center;
+}
+
+section #filmesCartaz img{
+    padding: 10px;
+}
+
+section #filmesCartaz img:hover{
+    transition: 0.5s;
+    opacity: 0.4;
+}
+
+#breve{    
+    width: 100%;
+    background: black;
+    height: 600px;  
+    padding: 30px; 
+}
+
+section #embreve h2{  
+    margin-left: 120px; 
+    padding: 30px;
+    color:yellow;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+section #filmesBreve{
+    display: flex;
+    justify-content: center;
+}
+
+section #filmesBreve img{
+    padding: 10px;
+}
+
+section #filmesBreve img:hover{
+    transition: 0.5s;
+    opacity: 0.4;
+}
+
+footer{
+    width: 100%;
+    background: white;
+    height: 311px;  
+    padding: 20px; 
+}
+
+#redesSocias{
+    width: 100%;
+    background: white;
+    height: 70px;  
+    padding: 10px; 
+}
+
+footer #redes{
+    display: flex;
+    justify-content: center;
+}
+
+footer #redes h4{
+    padding: 8px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+}
+
+#sobre{
+    width: 100%;
+    background: red;
+    height: 200px;  
+    padding: 10px;
+    border-radius: 10px;
+}
+
+section #nos h4{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    color: black;
+}
+
+section #nos h5{
+    margin-left: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: white;
+}
+
+
